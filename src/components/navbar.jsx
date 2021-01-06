@@ -4,8 +4,7 @@ class Navbar extends Component {
   render() {
     return (
       <nav className="navbar">
-        <img src="https://raw.githubusercontent.com/mooyeon-choi/webzine/f2e3e73498958484b115e5dec1bd380a122819a5/src/sklogo.svg?token=AMQLWYRUKFHT67AMWMFZNNC76UOGW" alt="logo" className="navbar-logo"/>
-        <img src="" alt=""/>
+        <img src="https://github.com/mooyeon-choi/webzine/blob/main/public/images/team_name.png?raw=true"  alt="logo" className="navbar-logo"/>
       </nav>
     );
   }

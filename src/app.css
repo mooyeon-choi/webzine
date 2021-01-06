@@ -109,22 +109,64 @@ body {
 
 .modal {
   position: fixed;
+  text-align: center;
   top: 2vh;
   left: 2vw;
   width: 96vw;
   height: 96vh;
-  padding: 40px;
+  padding: 10vh 25vw;
   z-index: 10;
   background-color: #ffffff;
+
+  overflow: auto;
 }
 
 .modal-header {
 }
 
 .modal-header-title {
+  font-size: 3rem;
   text-align: center;
+  margin: 5px;
 }
 
 .modal-header-subtitle {
+  font-size: 3rem;
   text-align: center;
+}
+
+.modal-text-title {
+  font-size: 2rem;
+  text-align: left;
+}
+
+.modal-text {
+  font-size: 1.2rem;
+  text-align: left;
+  margin-bottom: 10vh;
+}
+
+.center-img {
+  width: 100%;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

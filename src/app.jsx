@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './app.css';
 import Card from './components/card';
+import Environment from './components/environment';
 import Navbar from './components/navbar';
 import WhatIsESG from './components/whatIsESG';
 
@@ -70,6 +71,11 @@ class App extends Component {
         </div>
         {this.state.openModalId === 0 && 
           <WhatIsESG 
+            onCloseModal={this.handleCloseModal}
+          />
+        }
+        {this.state.openModalId === 1 && 
+          <Environment
             onCloseModal={this.handleCloseModal}
           />
         }

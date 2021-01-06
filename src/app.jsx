@@ -2,10 +2,11 @@ import React, { Component } from 'react';
 import './app.css';
 import Card from './components/card';
 import Navbar from './components/navbar';
+import WhatIsESG from './components/whatIsESG';
 
 class App extends Component {
   state = {
-    isOpenModal: false,
+    openModalId: -1,
     cards: [
       {
         id: 0,
@@ -46,8 +47,12 @@ class App extends Component {
     ],
   }
 
-  handleOpenModal = () => {
+  handleOpenModal = (openModalId) => {
+    this.setState({ openModalId });
+  }
 
+  handleCloseModal = () => {
+    this.setState({ openModalId: -1 })
   }
 
   render() {
@@ -57,13 +62,16 @@ class App extends Component {
         <div className="main-board">
           {this.state.cards.map(card => 
             <Card 
+              key={card.id}
               card={card}
+              onOpenModal={this.handleOpenModal}
             />
           )}
         </div>
-        {this.props.isOpenModal && 
-          <article>
-          </article>
+        {this.state.openModalId === 0 && 
+          <WhatIsESG 
+            onCloseModal={this.handleCloseModal}
+          />
         }
       </>
     );

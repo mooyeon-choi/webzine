@@ -106,3 +106,25 @@ body {
   margin-top: 5px;
   font-size: 1rem;
 }
+
+.modal {
+  position: fixed;
+  top: 2vh;
+  left: 2vw;
+  width: 96vw;
+  height: 96vh;
+  padding: 40px;
+  z-index: 10;
+  background-color: #ffffff;
+}
+
+.modal-header {
+}
+
+.modal-header-title {
+  text-align: center;
+}
+
+.modal-header-subtitle {
+  text-align: center;
+}

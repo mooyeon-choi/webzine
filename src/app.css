@@ -71,6 +71,10 @@ body {
   transition: 0.3s;
 }
 
+#third:hover {
+  cursor: pointer;
+}
+
 .slide-img {
   min-height: 65vh;
   min-width: 100%;

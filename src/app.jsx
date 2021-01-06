@@ -33,32 +33,13 @@ class App extends Component {
     this.setState({thirdModalIsOpen: false})
   }
 
-  firstSlide = () => {
-    document.getElementById("first").style.zIndex = "1";
-    document.getElementById("second").style.zIndex = "0";
-    document.getElementById("third").style.zIndex = "0";
-  }
-
-  secondSlide = () => {
-    document.getElementById("first").style.zIndex = "0";
-    document.getElementById("second").style.zIndex = "1";
-    document.getElementById("third").style.zIndex = "0";
-  }
-
-  thirdSlide = () => {
-    document.getElementById("first").style.zIndex = "0";
-    document.getElementById("second").style.zIndex = "0";
-    document.getElementById("third").style.zIndex = "1";
-  }
-
   render() {
     return (
       <>
         {this.state.firstModalIsOpen && 
         <article className="articles" onClick={this.closeFirstModal}>
-          <div>첫번째 주제</div>
-          <hr/>
           <h1>ESG(Environment, Social, Governance)란 무엇일까?</h1>
+          <hr/>
           <h3>ESG의 시작과 배경</h3>
           <section>
             <img src="https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=20191212085116099134a01bf698f17519719666.jpg" alt="greta"/>
@@ -70,9 +51,8 @@ class App extends Component {
         </article>}
         {this.state.secondModalIsOpen && 
         <article className="articles" onClick={this.closeSecondModal}>
-          <div>두번째 주제</div>
-          <hr/>
           <h1>SK의 ESG 실천노력</h1>
+          <hr/>
           <h3>기업이 ESG를 강조하는 이유</h3>
           <p> "지구환경을 보존하고 미래세대에 더 풍요로운 세상을 물려주기 위해 기업의 역할과 경영의 새로운 원칙에 대한 근본적 고민이 필요하다. 기업이 경제적 가치만 고려했던 방식에서 벗어나 사회와 더불어 성장할 수 있도록 ESG를 기업경영에 고려해야 한다"</p>
           <h3>ESG와 관련해 SK 그룹이 해 온/해 나갈 것들</h3>
@@ -90,9 +70,8 @@ sk주식회사는 친환경 에너지로 성장하고있는 수소사업에 본�
 
         {this.state.thirdModalIsOpen && 
         <article className="articles" onClick={this.closeThirdModal}>
-          <div>세번째 주제</div>
-          <hr/>
           <h1>ESG, 우리는 무엇을 실천해야 할까</h1>
+          <hr/>
           <h3>구성원 차원에서 할 수 있는 작은 아이디어들</h3>
           <p>앞서서 ESG와 관련해서 사회적 가치를 창출하려는 기업의 실천사례와 결과수치들을 알아보았습니다. 자금 투자나 사업 추진과 같은 기업 단위의 정책들을 보면서 조직의 구성원은 ESG 경영을 실천하기 어려운 것이 아니냐고 생각하기 쉽습니다. 하지만 조직의 단일 구성원도 얼마든지 사회적 가치를 창출할 수 있다는 사실을 알고 계신가요?</p>
           <p>대규모 투자가 필요한 ESG활동을 보면서 구성원은 이를 실천하기 어려운 것이라고 생각하기 쉽습니다. 하지만 단일 구성원 역시 얼마든지 사회적 가치를 창출할 수 있다는 사실!</p>
@@ -109,39 +88,26 @@ SK건설은 사회적 책임을 다하고 나눔을 실천하는 기업문화를
 
         <Navbar />
         <article className="main-board">
-          <section className="carousel">
-            <section id="first" className="carousel-item" onClick={this.openFirstModal}>
-              <img className="slide-img" src="https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=20191212085116099134a01bf698f17519719666.jpg" alt="greta"/>
-              <div className="subtitle">ESG(Environment, Social, Governance)란 무엇일까?</div>
-            </section>
-            <section id="second" className="carousel-item" onClick={this.openSecondModal}>
-              <img className="slide-img" src="https://news.kbs.co.kr/data/news/2020/11/01/20201101_VvVjEE.jpg" alt="second"/>
-              <div className="subtitle">SK의 ESG 실천노력</div>
-            </section>
-            <section id="third" className="carousel-item" onClick={this.openThirdModal}>
-              <img className="slide-img" src="https://t1.daumcdn.net/cfile/tistory/2701C938563AF31810" alt="third"/>
-              <div className="subtitle">ESG, 우리는 무엇을 실천해야 할까</div>
-            </section>
+        <section id="first" className="main-item" onClick={this.openFirstModal}>
+          <div className="subtitle">ESG(Environment, Social, Governance)란 무엇일까?</div>
+          <img className="main-img" src="https://cdn.i-scmp.com/sites/default/files/styles/1200x800/public/d8/images/methode/2019/12/12/f9861b2e-1c24-11ea-8971-922fdc94075f_image_hires_110946.jpg?itok=nYsA-jCw&v=1576120192" alt="greta"/>
         </section>
         <section className="flex-box">
           <img 
             className="side-img" 
             onClick={this.openFirstModal}
-            onMouseOver={this.firstSlide}
-            src="https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=20191212085116099134a01bf698f17519719666.jpg" 
+            src="https://cdn.i-scmp.com/sites/default/files/styles/1200x800/public/d8/images/methode/2019/12/12/f9861b2e-1c24-11ea-8971-922fdc94075f_image_hires_110946.jpg?itok=nYsA-jCw&v=1576120192" 
             alt="greta" 
             width="100%"
           />
           <img 
             onClick={this.openSecondModal}
-            onMouseOver={this.secondSlide}
             className="side-img" 
             src="https://news.kbs.co.kr/data/news/2020/11/01/20201101_VvVjEE.jpg" alt="greta" width="100%"/>
           <img 
             onClick={this.openThirdModal}
-            onMouseOver={this.thirdSlide}
             className="side-img" 
-            src="https://t1.daumcdn.net/cfile/tistory/2701C938563AF31810" alt="greta" width="100%"/>
+            src="https://www.ulsanpress.net/news/photo/202011/365612_152304_1810.jpg" alt="greta" width="100%"/>
         </section>
         </article>
       </>

@@ -1,26 +1,50 @@
 * {
+  font-family: "Noto Sans KR", sans-serif;
   box-sizing: border-box;
 }
 
 body {
-  background-color: #f7f7fd;
+  background-color: #ffffff;
 }
+
 /* nav */
 .navbar {
-  position: fixed;
-  top: 5vh;
-  display: flex;
-  justify-content: center;
-  position: fixed;
+  position: absolute;
+  text-align: center;
   width: 100%;
-  font-size: 5rem;
-  padding: 10px;
   height: 18vh;
 }
 
+.logo-nav {
+  height: 4vh;
+  background-color: #d2142b;
+}
+
+.menus {
+  display: flex;
+  justify-content: left;
+  margin-top: 30px;
+  padding: 13px 0 0 15vw;
+  height: 7vh;
+  background-color: #d2142b;
+}
+
+.menu-icon {
+  font-size: 1.5rem;
+  margin-right: 20px;
+  color: #ffffff;
+}
+
+.button {
+  height: 5vh;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
 .navbar-logo {
-  height: 80%;
-  margin: 5px 30px;
+  height: 70%;
+  margin-top: 30px;
 }
 
 .main-board {
@@ -30,16 +54,11 @@ body {
   justify-content: center;
 }
 
-.carousel {
-  width: 55vw;
-  height: 65vh;
-
-  overflow: hidden;
+.main-item {
+  height: 400px;
 }
 
-.carousel-item {
-  position: relative;
-  width: 100%;
+.main-img {
   height: 100%;
 }
 
@@ -76,19 +95,16 @@ body {
 }
 
 .slide-img {
-  min-height: 65vh;
+  height: 70vh;
   min-width: 100%;
 }
 
 .subtitle {
   position: relative;
-  width: 80%;
+  width: 100%;
   height: 7vh;
-  bottom: 100px;
-  background-color: rgba(0, 0, 0, 0.6);
-  color: #ffffff;
-  padding: 10px 30px;
-  font-size: 2rem;
+  background-color: #ffffff;
+  font-size: 2.5rem;
 }
 
 .flex-box {
@@ -103,7 +119,7 @@ body {
   top: 5vh;
   left: 5vw;
   width: 90vw;
-  height: 90vh;
+  height: 94vh;
   background-color: #ffffff;
   box-shadow: #000000;
   padding: 30px;
@@ -111,8 +127,8 @@ body {
 }
 
 .side-img {
-  margin: 0 0 3px 3px;
-  height: 32.6%;
+  margin: 0 0 4px 4px;
+  height: 30%;
 }
 
 .side-img:hover {

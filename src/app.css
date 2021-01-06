@@ -18,7 +18,7 @@ body {
 .logo-nav {
   display: flex;
   justify-content: left;
-  padding-left: 33vh;
+  padding-left: 25vw;
   height: 4vh;
   background-color: #000000;
 }
@@ -57,90 +57,52 @@ body {
 
 .main-board {
   top: 20vh;
-  padding: 0 20vw;
-  width: 60vw;
+  padding: 0 25vw;
+  width: 50vw;
   position: relative;
   display: flex;
   flex-direction: column;
 }
 
-.main-item {
-  height: 400px;
+.card {
+  display: flex;
+  width: 50vw;
+  height: 25vh;
+  border: 1px solid #aaaaaa;
+  overflow: hidden;
+  margin: 20px;
 }
 
-.main-img {
+.card:hover {
+  cursor: pointer;
+}
+
+.card-img {
+  width: 40%;
+  height: auto;
+}
+
+.decription {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
   height: 100%;
+  width: 60%;
 }
 
-#first {
-  z-index: 1;
-  top: 0;
-  left: 0;
-  transition: 0.4s;
-  animation: fadeOut ease 1s;
+.decription-title {
+  margin-bottom: 5px;
+  font-size: 2rem;
 }
 
-#first:hover {
-  cursor: pointer;
+.decription-subtitle {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 1.2rem;
 }
 
-#second {
-  z-index: 0;
-  top: -100%;
-  transition: 0.43s;
-}
-
-#second:hover {
-  cursor: pointer;
-}
-
-#third {
-  z-index: 0;
-  top: -200%;
-  transition: 0.3s;
-}
-
-#third:hover {
-  cursor: pointer;
-}
-
-.slide-img {
-  height: 70vh;
-  min-width: 100%;
-}
-
-.subtitle {
-  position: relative;
-  width: 100%;
-  height: 7vh;
-  background-color: #ffffff;
-  font-size: 2.5rem;
-}
-
-.flex-box {
-  display: flex;
-  flex-direction: column;
-  width: 20vw;
-}
-
-.articles {
-  position: fixed;
-  z-index: 100;
-  top: 5vh;
-  left: 5vw;
-  width: 90vw;
-  height: 94vh;
-  background-color: #ffffff;
-  box-shadow: #000000;
-  padding: 30px;
+.decription-text {
+  margin-top: 5px;
   font-size: 1rem;
-}
-
-.side-img {
-  margin: 0 0 4px 4px;
-  height: 30%;
-}
-
-.side-img:hover {
-  cursor: pointer;
 }

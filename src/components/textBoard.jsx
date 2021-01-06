@@ -31,7 +31,7 @@ class TextBoard extends Component {
     return (
       <div className="text-board">
         {this.state.explanations.map(explanation =>
-          <ShortExplan />
+          <ShortExplan explanation={explanation}/>
         )}
       </div>
     );

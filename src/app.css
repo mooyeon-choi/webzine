@@ -9,7 +9,7 @@ body {
 
 /* nav */
 .navbar {
-  position: absolute;
+  position: relative;
   text-align: center;
   width: 100%;
   height: 18vh;
@@ -20,7 +20,7 @@ body {
   justify-content: left;
   padding-left: 33vh;
   height: 4vh;
-  background-color: #d2142b;
+  background-color: #000000;
 }
 
 .team-logo {
@@ -33,9 +33,8 @@ body {
   margin-top: 30px;
   padding: 13px 0 0 15vw;
   height: 7vh;
-  border: solid;
-  border-top: 1px;
-  border-bottom: 1px;
+  border-top: 1px solid #000000;
+  border-bottom: 2px solid #000000;
 }
 
 .menu-icon {
@@ -52,15 +51,17 @@ body {
 }
 
 .navbar-logo {
-  height: 70%;
+  height: 90%;
   margin-top: 30px;
 }
 
 .main-board {
+  top: 20vh;
+  padding: 0 20vw;
+  width: 60vw;
   position: relative;
-  top: 30vh;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 }
 
 .main-item {

@@ -27,6 +27,9 @@ export default class Governance extends Component {
           <p className="modal-text"> SK 그룹의 각 회사는 이사회 중심의 경영을 통해 대주주 및 경영진으로부터 독립성을 유지하고 있습니다. 지주회사인 SK주식회사에서는 크게 3개의 위원회가 있으며 거버넌스위원회, 감사위원회, 사외이사후보추천위원회로 구성되어 투명경영을 실천하고 있습니다.</p>
           <h2 className="modal-text-title">지배구조헌장</h2>
           <p className="modal-text"> 지주회사인 SK주식회사는 ‘기업지배구조헌장’을 제정하여 주주의 권리, 이사회와 감사위원회의 권한과 책임 등 지배구조에 대한 정보를 제공합니다. 더 나아가 회사 홈페이지를 통해 위원회 활동현황 및 ESG 등급 정보를 제공하며 공정한 경영을 추구합니다.</p>
+          <h2 className="modal-text-title">ESG 평가등급</h2>
+          <img className="center-img" src="https://github.com/mooyeon-choi/webzine/blob/main/src/images/esg%ED%8F%89%EA%B0%80%EB%93%B1%EA%B8%89.PNG?raw=true" alt="re100"/>
+          <img className="center-img" src="https://github.com/mooyeon-choi/webzine/blob/main/src/images/esg%ED%8F%89%EA%B0%80%EB%93%B1%EA%B8%891.PNG?raw=true" alt="re100"/>
         </header>
       </article>
     )

@@ -24,7 +24,8 @@ body {
 }
 
 .team-logo {
-  height: 100%;
+  margin-top: 4px;
+  height: 80%;
 }
 
 .menus {

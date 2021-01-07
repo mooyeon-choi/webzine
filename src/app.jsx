@@ -38,7 +38,7 @@ class App extends Component {
         src: "https://github.com/mooyeon-choi/webzine/blob/main/src/images/skms.jpg?raw=true",
         alt: "실천사례 3",
         title: "SK의 ESG 실천노력",
-        subtitle: "- 지배구조는 투명하고 공정한 경영을 통해 지속가능경영을 실천...",
+        subtitle: "- 지배구조",
         text: " SK는 경영철학인 SKMS의 개정을 통해 구성원과 이해관계자의 행복을 목적함수로 설정했습니다. 이를 통해 단순히 기업의 경제적 가치만을 좇는 것이 아니라..."
       }, {
         id: 4,

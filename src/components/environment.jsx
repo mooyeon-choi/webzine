@@ -14,7 +14,7 @@ export default class Environment extends Component {
       <article className="modal" onClick={this.handleCloseModal} onScroll={this.handleScroll}>
         <header className="modal-header">
         <h1 className="modal-header-title">SK의 ESG 실천노력</h1>
-        <h1 className="modal-header-title">ESG와 관련해 SK 그룹이 해 온/해 나갈 것들</h1>
+        <h1 className="modal-header-subtitle">ESG와 관련해 SK 그룹이 해 온/해 나갈 것들</h1>
           <h2 className="modal-header-subtitle">Environment</h2>
           <img className="center-img" src="https://github.com/mooyeon-choi/webzine/blob/main/src/images/re100.jpg?raw=true" alt="re100"/>
           <h2 className="modal-text-title">SK는 한국 최초로 RE100에 가입하였습니다. </h2>

@@ -14,10 +14,11 @@ export default class Social extends Component {
       <article className="modal" onClick={this.handleCloseModal} onScroll={this.handleScroll}>
         <header className="modal-header">
         <h1 className="modal-header-title">SK의 ESG 실천노력</h1>
-        <h1 className="modal-header-title">ESG와 관련해 SK 그룹이 해 온/해 나갈 것들</h1>
+        <h1 className="modal-header-subtitle">ESG와 관련해 SK 그룹이 해 온/해 나갈 것들</h1>
           <h2 className="modal-header-subtitle">Social</h2>
-          <h2 className="modal-text-title">SK - '딥 체인지' 인재 육성할 'SK 대학' 출범</h2>
+          <p className="modal-text"></p>
           <img className="center-img" src="https://post-phinf.pstatic.net/MjAyMDAxMzFfMTE0/MDAxNTgwNDMyODYxMTk2.Im_kJ7v7OBKD2bPHNW1lZXrb7MZ-wc4DHTXiHpC44k4g.42wzhPA0n0dKmkd4Wa41-nOA4M_6mODtzkRJVZCVnHcg.JPEG/80557_50707_557.jpg?type=w1200" alt="deep change"/>
+          <h2 className="modal-text-title">SK - '딥 체인지' 인재 육성할 'SK 대학' 출범</h2>
           <p className="modal-text"></p>
           <h2 className="modal-text-title">사회 안전망 관리</h2>
           <h2 className="modal-text-title">SK 텔레콤 </h2>

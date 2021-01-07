@@ -71,6 +71,7 @@ body {
   border: 1px solid #aaaaaa;
   overflow: hidden;
   margin: 20px;
+  min-width: 800px;
 }
 
 .card:hover {
@@ -93,13 +94,13 @@ body {
 
 .decription-title {
   margin-bottom: 5px;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .decription-subtitle {
   margin-top: 5px;
   margin-bottom: 5px;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .decription-text {
@@ -127,9 +128,6 @@ body {
   cursor: pointer;
 }
 
-.modal-header {
-}
-
 .modal-header-title {
   font-size: 3rem;
   text-align: center;
@@ -137,8 +135,9 @@ body {
 }
 
 .modal-header-subtitle {
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
+  margin: 5px;
 }
 
 .modal-text-title {

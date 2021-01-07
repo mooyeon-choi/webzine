@@ -14,7 +14,7 @@ export default class WhatIsESG extends Component {
       <article className="modal" onClick={this.handleCloseModal} onScroll={this.handleScroll}>
         <header className="modal-header">
         <h1 className="modal-header-title">ESG란 무엇일까? </h1>
-        <h1 className="modal-header-title">(Environment, Social, Governance) </h1>
+        <h1 className="modal-header-subtitle">(Environment, Social, Governance) </h1>
           <h2 className="modal-header-subtitle">ESG의 시작과 배경</h2>
           <img className="center-img" src="https://github.com/mooyeon-choi/webzine/blob/main/src/images/esg01.png?raw=true" alt="esg"/>
           <h2 className="modal-text-title">최근에 사회적으로 핫한 개념으로 떠오른 ESG란 무엇일까요?</h2>

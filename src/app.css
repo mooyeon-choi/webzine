@@ -31,7 +31,7 @@ body {
   display: flex;
   justify-content: left;
   margin-top: 30px;
-  padding: 13px 0 0 15vw;
+  padding: 13px 0 0 26vw;
   height: 7vh;
   border-top: 1px solid #000000;
   border-bottom: 2px solid #000000;
@@ -40,13 +40,13 @@ body {
 .menu-icon {
   font-size: 1.5rem;
   margin-right: 20px;
-  color: #ffffff;
+  color: #000000;
 }
 
 .button {
   height: 5vh;
   text-decoration: none;
-  color: #ffffff;
+  color: #000000;
   font-size: 1.5rem;
 }
 
@@ -141,7 +141,12 @@ body {
 }
 
 .modal-text-title {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.modal-text-middle {
+  font-size: 1.2rem;
   text-align: left;
 }
 

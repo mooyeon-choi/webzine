@@ -110,15 +110,21 @@ body {
 .modal {
   position: fixed;
   text-align: center;
-  top: 2vh;
-  left: 2vw;
-  width: 96vw;
-  height: 96vh;
+  top: 3vh;
+  left: 5vw;
+  width: 90vw;
+  height: 94vh;
   padding: 10vh 25vw;
   z-index: 10;
   background-color: #ffffff;
 
+  box-shadow: 0 0 40px #000000;
+
   overflow: auto;
+}
+
+.modal:hover {
+  cursor: pointer;
 }
 
 .modal-header {

@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import './app.css';
 import Card from './components/card';
 import Environment from './components/environment';
+import Governance from './components/governance';
 import Navbar from './components/navbar';
+import Social from './components/social';
 import WhatIsESG from './components/whatIsESG';
 
 class App extends Component {
@@ -76,6 +78,16 @@ class App extends Component {
         }
         {this.state.openModalId === 1 && 
           <Environment
+            onCloseModal={this.handleCloseModal}
+          />
+        }
+        {this.state.openModalId === 2 && 
+          <Social
+            onCloseModal={this.handleCloseModal}
+          />
+        }
+        {this.state.openModalId === 3 && 
+          <Governance
             onCloseModal={this.handleCloseModal}
           />
         }

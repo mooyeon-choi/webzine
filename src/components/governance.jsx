@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export default class Environment extends Component {
+export default class Governance extends Component {
   handleCloseModal = () => {
     this.props.onCloseModal();
   }

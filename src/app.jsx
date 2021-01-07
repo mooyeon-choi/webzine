@@ -35,7 +35,7 @@ class App extends Component {
         text: "SK에서는 사회공헌을 위해 크게 3가지 활동을 하고있다."
       }, {
         id: 3,
-        src: "https://github.com/mooyeon-choi/webzine/blob/main/src/images/skms.jpg?raw=true",
+        src: "https://github.com/mooyeon-choi/webzine/blob/main/src/images/governence-main.png?raw=true",
         alt: "실천사례 3",
         title: "SK의 ESG 실천노력",
         subtitle: "- 지배구조",

@@ -3,6 +3,7 @@ import './app.css';
 import Card from './components/card';
 import Environment from './components/environment';
 import Governance from './components/governance';
+import Implement from './components/implement';
 import Navbar from './components/navbar';
 import Social from './components/social';
 import WhatIsESG from './components/whatIsESG';
@@ -20,7 +21,7 @@ class App extends Component {
         text: "최근에 사회적으로 핫한 개념으로 떠오른 ESG란 무엇일까요?"
       }, {
         id: 1,
-        src: "https://lh3.googleusercontent.com/proxy/bL2k85dvd8ugyz5EpkqAZB8Ff2Fw5lc0wn3QKqFYItVft6vfN59OSm02_pO8A-M_BC9dcozU-w5EgU7AZYf2-FE1KRQm6ynO6bpmxyBM6QW35qnpIulnhLHTQLIvissLHOLLst8j58MAsneSrXw0aUWNkoRg6MxpLNW85eJ5m8hrxqNB0xafyOiBbb9h_V9EDSwo1UDt1fDyMIH8V2vP",
+        src: "https://github.com/mooyeon-choi/webzine/blob/main/src/images/re100.jpg?raw=true",
         alt: "실천사례 1",
         title: "SK의 ESG 실천노력",
         subtitle: "-	ESG와 관련해 SK 그룹이 해 온/해 나갈 것들",
@@ -34,7 +35,7 @@ class App extends Component {
         text: "SK에서는 사회공헌을 위해 크게 3가지 활동을 하고있다."
       }, {
         id: 3,
-        src: "https://lh3.googleusercontent.com/proxy/1LjHiGmd51qBo89y7HUl5RDbn8ysOygN49xXxkAWdvh3ui0qA3EM9X8-8kWq4UAV6nlcfZjzGr8IOpxYyay6O5x1TBgTYfMBSbgwRntBlcNzKqtkx00",
+        src: "https://github.com/mooyeon-choi/webzine/blob/main/src/images/skms.jpg?raw=true",
         alt: "실천사례 3",
         title: "SK의 ESG 실천노력",
         subtitle: "- 지배구조는 투명하고 공정한 경영을 통해 지속가능경영을 실천...",
@@ -88,6 +89,11 @@ class App extends Component {
         }
         {this.state.openModalId === 3 && 
           <Governance
+            onCloseModal={this.handleCloseModal}
+          />
+        }
+        {this.state.openModalId === 4 && 
+          <Implement
             onCloseModal={this.handleCloseModal}
           />
         }

@@ -16,7 +16,7 @@ export default class Environment extends Component {
         <h1 className="modal-header-title">SK의 ESG 실천노력</h1>
         <h1 className="modal-header-title">ESG와 관련해 SK 그룹이 해 온/해 나갈 것들</h1>
           <h2 className="modal-header-subtitle">Environment</h2>
-          <img className="center-img" src="https://lh3.googleusercontent.com/proxy/bL2k85dvd8ugyz5EpkqAZB8Ff2Fw5lc0wn3QKqFYItVft6vfN59OSm02_pO8A-M_BC9dcozU-w5EgU7AZYf2-FE1KRQm6ynO6bpmxyBM6QW35qnpIulnhLHTQLIvissLHOLLst8j58MAsneSrXw0aUWNkoRg6MxpLNW85eJ5m8hrxqNB0xafyOiBbb9h_V9EDSwo1UDt1fDyMIH8V2vP" alt="re100"/>
+          <img className="center-img" src="https://github.com/mooyeon-choi/webzine/blob/main/src/images/re100.jpg?raw=true" alt="re100"/>
           <h2 className="modal-text-title">SK는 한국 최초로 RE100에 가입하였습니다. </h2>
           <p className="modal-text">RE100이란, Renewable Energy, 즉 재생에너지를 2050년까지 소비전력의 100퍼센트의 비율로 사용하겠다고 선언한 글로벌 캠페인입니다. RE100은 수출 경쟁력과도 직결되어 sk의 글로벌 경쟁력을 확보 할 수 있는 중요한 요소중 하나입니다.</p>
           <img className="center-img" src="https://img.asiatoday.co.kr/file/2020y/10m/23d/2020102201001976600130961.jpg" alt="h"/>

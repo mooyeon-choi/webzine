@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/webzine/static/css/main.b10e6f6a.chunk.css",
-    "main.js": "/webzine/static/js/main.616fc7aa.chunk.js",
-    "main.js.map": "/webzine/static/js/main.616fc7aa.chunk.js.map",
+    "main.css": "/webzine/static/css/main.0b0c6deb.chunk.css",
+    "main.js": "/webzine/static/js/main.0ee2507a.chunk.js",
+    "main.js.map": "/webzine/static/js/main.0ee2507a.chunk.js.map",
     "runtime-main.js": "/webzine/static/js/runtime-main.f49cbf1e.js",
     "runtime-main.js.map": "/webzine/static/js/runtime-main.f49cbf1e.js.map",
     "static/js/2.ac761cdf.chunk.js": "/webzine/static/js/2.ac761cdf.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.10a71b9d.chunk.js": "/webzine/static/js/3.10a71b9d.chunk.js",
     "static/js/3.10a71b9d.chunk.js.map": "/webzine/static/js/3.10a71b9d.chunk.js.map",
     "index.html": "/webzine/index.html",
-    "static/css/main.b10e6f6a.chunk.css.map": "/webzine/static/css/main.b10e6f6a.chunk.css.map",
+    "static/css/main.0b0c6deb.chunk.css.map": "/webzine/static/css/main.0b0c6deb.chunk.css.map",
     "static/js/2.ac761cdf.chunk.js.LICENSE.txt": "/webzine/static/js/2.ac761cdf.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f49cbf1e.js",
     "static/js/2.ac761cdf.chunk.js",
-    "static/css/main.b10e6f6a.chunk.css",
-    "static/js/main.616fc7aa.chunk.js"
+    "static/css/main.0b0c6deb.chunk.css",
+    "static/js/main.0ee2507a.chunk.js"
   ]
 }

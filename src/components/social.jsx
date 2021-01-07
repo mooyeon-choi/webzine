@@ -16,6 +16,9 @@ export default class Social extends Component {
         <h1 className="modal-header-title">SK의 ESG 실천노력</h1>
         <h1 className="modal-header-subtitle">ESG와 관련해 SK 그룹이 해 온/해 나갈 것들</h1>
           <h2 className="modal-header-subtitle">Social</h2>
+        <p className="modal-text"></p>
+        <img src="https://github.com/mooyeon-choi/webzine/blob/main/src/images/social-main.png?raw=true" alt="deep change"/>
+          <p className="modal-text">SK 에서는 ESG에서의 'S' 사회적 책임 부분에서도 열심히 활동을 하고 있습니다. SK에서 실행하고 있는 사회 공헌 활동은 인재 확보 및 육성, 사회 안정망 관리, 동반 성장 이렇게 세가지로 나뉘어집니다.</p>
           <p className="modal-text"></p>
           <h2 className="modal-text-title">인재 육성</h2>
           <img className="center-img" src="https://post-phinf.pstatic.net/MjAyMDAxMzFfMTE0/MDAxNTgwNDMyODYxMTk2.Im_kJ7v7OBKD2bPHNW1lZXrb7MZ-wc4DHTXiHpC44k4g.42wzhPA0n0dKmkd4Wa41-nOA4M_6mODtzkRJVZCVnHcg.JPEG/80557_50707_557.jpg?type=w1200" alt="deep change"/>

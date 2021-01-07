@@ -34,6 +34,15 @@ export default class Social extends Component {
           <img className="center-img" src="https://github.com/mooyeon-choi/webzine/blob/main/src/images/KakaoTalk_20210107_093923548.png?raw=true" alt="hynix"/>
           <p className="modal-text">저소득 청소년 학습용 노트북 PC 전달, 독거 노인 결식 방지 SK행복생필품꾸러미 선물, 취약 계층 여름용 쿨 마스크 제작.지원</p>
           <h2 className="modal-text-title">동반 성장</h2>
+          <h2 className="modal-text-title">SKT</h2>
+          <img className="center-img" src="https://github.com/mooyeon-choi/webzine/blob/main/src/images/1250338_20191205165527_418_0001.jpg?raw=true" alt="hynix"/>
+          <p className="modal-text">'혁신주도형 임금격자 해소 협약' 체결</p>
+          <h2 className="modal-text-title">SK 건설</h2>
+          <img className="center-img" src="https://github.com/mooyeon-choi/webzine/blob/main/src/images/2020062301119_0.jpg?raw=true" alt="hynix"/>
+          <p className="modal-text">'동반성장몰'</p>
+          <h2 className="modal-text-title">SK 하이닉스</h2>
+          <img className="center-img" src="https://github.com/mooyeon-choi/webzine/blob/main/src/images/img.jpg?raw=true" alt="hynix"/>
+          <p className="modal-text">패턴 웨이퍼 지원 사업, ESG 컨설팅, 청년 Hy-Five</p>
         </header>
       </article>
     )
